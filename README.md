@@ -32,4 +32,5 @@ SKUs are restricted to alphanumeric (a-z, 0-9) characters.
 ### Goals
 
 - This is meant to be a fairly open exercise. Feel free to be creative with your solution.
-- We want to do our best to ensure data accuracy.
+- We want to do our best to ensure data accuracy in the models.
+- Track progress with commits.
