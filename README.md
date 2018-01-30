@@ -2,9 +2,10 @@
 
 1. Install Ruby.
 2. Install [bundler](https://bundler.io/) with `gem install bundler`
-1. Run `bundle install` from project root
-2. Run `bundle exec rake db:create` to create your sqlite db
-3. Start up server with `bundle exec rails s`
+3. Run `bundle install` from project root
+4. Run `bundle exec rake db:create` to create your sqlite db
+5. Start up server with `bundle exec rails s`
+6. Access the site at [localhost:3000](http://localhost:3000)
 
 # Problem explanation
 
