@@ -1,3 +1,11 @@
+# Environment set up
+
+1. Install Ruby.
+2. Install [bundler](https://bundler.io/) with `gem install bundler`
+1. Run `bundle install` from project root
+2. Run `bundle exec rake db:create` to create your sqlite db
+3. Start up server with `bundle exec rails s`
+
 # Problem explanation
 
 You have a collection of products with unique SKU numbers. Products belong in different categories including cell phones and tablets, but should be able to handle additional categories should we decide to add more to our database. Products can also be included in orders. An invoice can be generated from an order.
