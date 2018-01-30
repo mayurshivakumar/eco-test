@@ -1,24 +1,26 @@
-# README
+# Problem explanation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You have a collection of products with unique SKU numbers. Products belong in different categories including cell phones and tablets, but should be able to handle additional categories should we decide to add more to our database. Products can also be included in orders. An invoice can be generated from an order.
 
-Things you may want to cover:
+### Tasks
 
-* Ruby version
+1. Develop ActiveRecord models for our data.
+2. Develop a page that is rendered at /products that shows a table view of your products. Using query parameters, a user should be able to define ordering (by category, SKU or price), or filter by category.
+3. Add a display page at /orders/:id that shows an invoice with products in order and total price.
 
-* System dependencies
+### Some example data
 
-* Configuration
+SKUs are restricted to alphanumeric (a-z, 0-9) characters.
 
-* Database creation
+#### Products
 
-* Database initialization
+| Name         | SKU          | Category     | Price |
+|--------------|--------------|--------------|-------|
+| iPhone X     | bc32h5i6     | cell phones  | $1000 |
+| iPad Pro     | hsl1v00p     | tablets      | $800  |
+| Google Pixel | gp732qt1     | cell phones  | $700  |
 
-* How to run the test suite
+### Goals
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- This is meant to be a fairly open exercise. Feel free to be creative with your solution.
+- We want to do our best to ensure data accuracy.
