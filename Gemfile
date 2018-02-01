@@ -35,6 +35,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+gem "twitter-bootstrap-rails"
+
 gem 'jquery-datatables-rails' , github:'rweng/jquery-datatables-rails'
 
 group :development, :test do
